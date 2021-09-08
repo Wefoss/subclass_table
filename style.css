@@ -19,9 +19,16 @@ tbody>tr>td:first-child{
   padding-left: 20px;
 }
 
+thead tr>td>div>p:nth-child(even) {
+  font-size: 1.6rem;
+  padding: 0px;
+  margin: 0px;
+}
 
 thead tr {
   color: white;
+  font-weight: bold;
+  font-size: 1rem;
 }
 thead td:not(:first-child) {
   width: 15%;
